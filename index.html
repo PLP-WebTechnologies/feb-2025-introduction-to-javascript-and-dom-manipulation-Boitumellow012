@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubblegum Bliss</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 id="main-heading">Bubblegum Bliss</h1>
+        <p id="welcome-message">Welcome to our candy shop!</p>
+    </header>
+
+    <main>
+        <section class="sweets-section">
+            <h2>Our Treat Selection</h2>
+            <div id="sweets-container">
+                <div class="sweet-item">
+                    <img src="https://images.pexels.com/photos/5469044/pexels-photo-5469044.jpeg" alt="Gummy Bears">
+                    <h3>Gummy Bears</h3>
+                    <p class="price">$1.99 per pack</p>
+                    <button class="favorite-btn">Add to Favorites</button>
+                </div>
+                <div class="sweet-item">
+                    <img src="https://images.pexels.com/photos/4474770/pexels-photo-4474770.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Lollipops">
+                    <h3>Assorted Lollipops</h3>
+                    <p class="price">$0.99 each</p>
+                    <button class="favorite-btn">Add to Favorites</button>
+                </div>
+                <div class="sweet-item">
+                    <img src="https://images.pexels.com/photos/5868963/pexels-photo-5868963.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Candy Canes">
+                    <h3>Classic Candy Canes</h3>
+                    <p class="price">$2.50 per pack</p>
+                    <button class="favorite-btn">Add to Favorites</button>
+                </div>
+                <div class="sweet-item">
+                    <img src="https://images.pexels.com/photos/557665/pexels-photo-557665.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Jelly Beans">
+                    <h3>Jelly Beans</h3>
+                    <p class="price">$3.00 per pack</p>
+                    <button class="favorite-btn">Add to Favorites</button>
+                </div>
+                <div class="sweet-item">
+                    <img src="https://images.pexels.com/photos/1289363/pexels-photo-1289363.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                        alt="Mints">
+                    <h3>Mints</h3>
+                    <p class="price">$2.50 per pack</p>
+                    <button class="favorite-btn">Add to Favorites</button>
+                </div>
+                <div class="sweet-item">
+                    <img src="https://images.pexels.com/photos/557665/pexels-photo-557665.jpeg?auto=compress&cs=tinysrgb&w=800"
+                        alt="Jelly Beans">
+                    <h3>Jelly Beans</h3>
+                    <p class="price">$3.00 per pack</p>
+                    <button class="favorite-btn">Add to Favorites</button>
+                </div>
+            </div>
+            <button id="add-sweet-btn">Add New Sweet</button>
+        </section>
+
+
+        <section class="controls-section">
+            <h2>Customize Your Experience</h2>
+            <div class="control-group">
+                <button id="change-theme-btn">Toggle Dark Mode</button>
+                <button id="change-heading-btn">Change Heading</button>
+                <button id="hide-prices-btn">Toggle Prices</button>
+            </div>
+        </section>
+
+        <section id="favorites-section">
+            <h2>Your Favorites</h2>
+            <div id="favorites-container"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p id="footer-text">© 2025 Bubblegum Bliss Candy Shop</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
